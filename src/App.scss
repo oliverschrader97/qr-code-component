@@ -1,0 +1,9 @@
+@use './stylesheets/colors.scss';
+
+.app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: colors.$light-gray;
+}
